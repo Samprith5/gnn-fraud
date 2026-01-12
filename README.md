@@ -1,4 +1,9 @@
 Graph Neural Network Fraud Detection
 
-This project detects fraudulent transactions using graph neural networks.
-Nodes represent users and edges represent transactions.
+This endeavor works on creating a fraud detection system where Graph Neural Networks are the mainstay for understanding the patterns of transactions in a whole financial network connectedness. The main distinction of this system lies in the representation of users as nodes and their transactions as edges while traditional methods represent every transaction as an isolated record. It is this model’s ability to notice the emergence of patterns as a result of inter-entity relationships that is very powerful in detecting highly organized fraudulent activities that usually consist of spreading the malicious practices through several linked accounts.
+
+In addition to this, the project also has a synthetic graph-based dataset generator which creates the transaction networks with the fraud labels at the node level that are very similar to the real ones. The generator gives every node a feature vector and then connects it with other nodes through the transaction edges weighted according to their importance. A graph model that is based on a neural network is trained to determine not only the characteristics of the nodes but also the network structure surrounding the nodes in order to classify each node as a fraud or a normal case.
+
+The training pipeline consists of a number of subprocesses including data generation, feature construction, model training, and evaluation using classification loss. The framework grants the possibility of incorporating real transaction data, the application of advanced graph convolution layers, and the deployment of explainability tools in order to discover the reasons why certain accounts are considered suspicious.
+
+The project is an example of how graph-based learning methods can be successfully applied to real-world fraud and anomaly detection scenarios and coexist with the interplay of entities which is a significant aspect of such detections.
